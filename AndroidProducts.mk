@@ -1,0 +1,5 @@
+PRODUCT_MAKEFILES := \
+	$(LOCAL_DIR)/NX669J.mk \
+
+COMMON_LUNCH_CHOICES := \
+    NX669J-userdebug 

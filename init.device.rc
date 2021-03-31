@@ -1,0 +1,5 @@
+on post-fs
+    mount none /vendor/etc/audio/sku_lahaina_qssi/audio_policy_configuration.xml /vendor/etc/audio/sku_lahaina/audio_policy_configuration.xml bind rec
+
+on property:sys.boot_completed=1
+    stop vendor.ssgtzd

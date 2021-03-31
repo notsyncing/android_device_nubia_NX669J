@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <bool name="config_automatic_brightness_available">true</bool>
+
+    <integer-array name="config_autoBrightnessLcdBacklightValues">
+        <item>4</item>
+        <item>9</item>
+        <item>27</item>
+        <item>48</item>
+        <item>61</item>
+        <item>69</item>
+        <item>117</item>
+        <item>170</item>
+        <item>223</item>
+    </integer-array>
+    <integer-array name="config_autoBrightnessLevels">
+        <item>1</item>
+        <item>10</item>
+        <item>50</item>
+        <item>100</item>
+        <item>400</item>
+        <item>900</item>
+        <item>2000</item>
+        <item>5000</item>
+    </integer-array>
+    
+    <item type="dimen" name="config_screenBrightnessDimFloat">0.05</item>
+    <item type="dimen" name="config_screenBrightnessDozeFloat">0.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingDefaultFloat">-2.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingForVrDefaultFloat">0.33464</item>
+    <item type="dimen" name="config_screenBrightnessSettingForVrMaximumFloat">1.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingForVrMinimumFloat">0.307087</item>
+    <item type="dimen" name="config_screenBrightnessSettingMaximumFloat">-2.0</item>
+    <item type="dimen" name="config_screenBrightnessSettingMinimumFloat">-2.0</item>
+
+    <item type="dimen" name="config_displayWhiteBalanceBrightnessFilterIntercept">10.0</item>
+    <item type="dimen" name="config_displayWhiteBalanceColorTemperatureFilterIntercept">10.0</item>
+    <item type="dimen" name="config_displayWhiteBalanceHighLightAmbientColorTemperature">8000.0</item>
+    <item type="dimen" name="config_displayWhiteBalanceLowLightAmbientColorTemperature">6500.0</item>
+
+    <bool name="config_carrier_volte_available">true</bool>
+    <bool name="config_device_volte_available">true</bool>
+    <bool name="config_carrier_wfc_ims_available">true</bool>
+    <bool name="config_device_wfc_ims_available">true</bool>
+
+    <item type="dimen" name="status_bar_height">@dimen/status_bar_height_portrait</item>
+    <item type="dimen" name="status_bar_height_landscape">@dimen/status_bar_height_portrait</item>
+    <dimen name="status_bar_height_portrait">37.0dip</dimen>
+    <dimen name="config_dialogCornerRadius">8.0dip</dimen>
+	<dimen name="config_buttonCornerRadius">4.0dip</dimen>
+    <dimen name="rounded_corner_content_padding">16dp</dimen>
+    <dimen name="rounded_corner_radius">30dp</dimen>
+
+    <bool name="config_useRoundIcon">true</bool>
+    <string name="config_icon_mask" translatable="false">"M50 0C77.6 0 100 22.4 100 50C100 77.6 77.6 100 50 100C22.4 100 0 77.6 0 50C0 22.4 22.4 0 50 0Z"</string>
+
+    <integer name="config_multiuserMaximumUsers">5</integer>
+	<bool name="config_enableMultiUserUI">true</bool>
+
+    <bool name="config_enableAutoPowerModes">true</bool>
+    <bool name="config_smart_battery_available">true</bool>
+
+    <bool name="config_cellBroadcastAppLinks">true</bool>
+
+    <bool name="config_swipe_up_gesture_setting_available">true</bool>
+
+    <bool name="config_enableWifiDisplay">true</bool>
+    <bool name="config_wifiDisplaySupportsProtectedBuffers">true</bool>
+
+    <string name="config_dozeComponent">com.android.systemui/com.android.systemui.doze.DozeService</string>
+    <bool name="config_dozeAfterScreenOffByDefault">true</bool>
+    <bool name="config_powerDecoupleAutoSuspendModeFromDisplay">true</bool>
+
+    <bool name="config_bluetooth_le_peripheral_mode_supported">true</bool>
+
+    <bool name="config_hotswapCapable">true</bool>
+
+    <string-array translatable="false" name="config_defaultPinnerServiceFiles">
+        <item>"/system/framework/arm64/boot-framework.oat"</item>
+        <item>"/system/framework/framework.jar"</item>
+        <item>"/system/framework/oat/arm64/services.odex"</item>
+        <item>"/system/framework/services.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-oj.jar"</item>
+        <item>"/apex/com.android.art/javalib/core-libart.jar"</item>
+        <item>"/apex/com.android.media/javalib/updatable-media.jar"</item>
+        <item>"/system_ext/priv-app/SystemUI/SystemUI.apk"</item>
+        <item>"/system_ext/priv-app/SystemUI/oat/arm64/SystemUI.odex"</item>
+        <item>"/system/lib64/libsurfaceflinger.so"</item>
+        <item>/system/lib64/libRScpp.so</item>
+        <item>/system/lib64/libRS.so</item>
+        <item>/system/lib64/libRS_internal.so</item>
+        <item>/system/lib64/libbcinfo.so</item>
+        <item>/system/lib64/libRSDriver.so</item>
+        <item>/system/lib64/libRSCpuRef.so</item>
+        <item>/system/lib64/libblas.so</item>
+    </string-array>
+
+    <bool name="config_pinnerCameraApp">true</bool>
+    <bool name="config_pinnerHomeApp">true</bool>
+
+    <bool name="config_sustainedPerformanceModeSupported">true</bool>
+
+    <bool name="config_setColorTransformAccelerated">true</bool>
+</resources>
