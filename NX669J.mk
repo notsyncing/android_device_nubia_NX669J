@@ -22,8 +22,8 @@ PRODUCT_PACKAGES += \
     update_verifier
 
 PRODUCT_PACKAGES += \
-	bootctrl.sdm888 \
-    bootctrl.sdm888.recovery
+	bootctrl.sm8350 \
+    bootctrl.sm8350.recovery
 
 # Boot control HAL
 PRODUCT_PACKAGES += \

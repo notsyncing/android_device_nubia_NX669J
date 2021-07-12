@@ -2,7 +2,7 @@ include build/make/target/board/generic_arm64_ab/BoardConfig.mk
 
 LOCAL_PATH := device/nubia/NX669J
 
-TARGET_BOARD_PLATFORM := sdm888
+TARGET_BOARD_PLATFORM := sm8350
 TARGET_BOARD_INFO_FILE := $(LOCAL_PATH)/board-info.txt
 
 TARGET_ARCH := arm64
